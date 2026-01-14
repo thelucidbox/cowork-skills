@@ -16,6 +16,25 @@ Analyzes your calendar, notes, and self-reported energy to identify patterns. Sh
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -59,6 +78,35 @@ output/
 ├── patterns.md                  # What I found
 └── optimization-suggestions.md  # What to change
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Energy Dashboard** | Visualize energy levels and patterns over time | "Create an energy dashboard artifact" |
+| **Daily Logger** | Quick energy rating input with notes | "Build an energy logger artifact" |
+| **Time Allocation Chart** | See where your time actually goes | "Make a time allocation artifact" |
+| **Optimization Tracker** | Track schedule changes and their impact | "Create an optimization tracker artifact" |
+
+### Example Artifact Requests
+
+**Energy Dashboard**
+> "Create a React dashboard showing: daily energy trend (line chart), best/worst times (heat map), and correlation with meeting load"
+
+**Quick Logger**
+> "Build a simple artifact where I can rate my energy 1-10 each day, add optional notes, and see my weekly average"
+
+**Time Pie Chart**
+> "Create an interactive chart showing how I actually spend my time: meetings, focus, admin, breaks—based on my calendar"
+
+### Tips
+- Log energy at the same time each day for consistency
+- Look for patterns after 3-4 weeks of data
+- Test one optimization at a time to see what works
 
 ---
 
@@ -129,4 +177,4 @@ Simplify: Just morning energy rating, or just after meetings.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

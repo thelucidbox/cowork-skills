@@ -119,4 +119,4 @@ ffmpeg -i clip.mp4 -ss 00:00:03 -frames:v 1 thumbnail.jpg
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

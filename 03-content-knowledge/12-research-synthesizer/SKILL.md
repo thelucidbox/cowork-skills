@@ -17,6 +17,25 @@ Takes multiple research sources—web searches, PDFs, documents—and synthesize
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -63,6 +82,35 @@ output/
 └── sources/
     └── [organized sources]
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Research Dashboard** | Overview of findings with key insights and source count | "Create a research dashboard artifact" |
+| **Source Comparison Chart** | Visual matrix showing where sources agree/conflict | "Build a source comparison artifact" |
+| **Findings Explorer** | Interactive cards for each key finding with citations | "Make a findings explorer artifact" |
+| **Citation Tracker** | Manage sources with credibility ratings and notes | "Create a citation tracker artifact" |
+
+### Example Artifact Requests
+
+**Research Dashboard**
+> "Create a React dashboard showing: research question, key findings (ranked by confidence), source count, and areas needing more research"
+
+**Source Comparison Matrix**
+> "Build an interactive matrix showing how my 5 sources agree or disagree on the key questions"
+
+**Findings Explorer**
+> "Create a card-based artifact where each finding has: summary, supporting sources, confidence level, and my notes"
+
+### Tips
+- Use the source comparison artifact to identify gaps and conflicts before writing
+- The findings explorer helps when presenting research to stakeholders
+- Update the citation tracker as you discover new sources
 
 ---
 
@@ -133,4 +181,4 @@ Ask: "Include original research and studies, not just articles"
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

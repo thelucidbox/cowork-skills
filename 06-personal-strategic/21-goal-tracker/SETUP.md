@@ -88,4 +88,4 @@ Goal Tracker analyzes files you provide. No external integrations needed.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

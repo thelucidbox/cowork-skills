@@ -17,6 +17,25 @@ Takes an upcoming meeting from your calendar and generates everything you need t
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -63,6 +82,35 @@ output/
 ├── draft-agenda.md           # Proposed structure
 └── post-meeting-template.md  # Note-taking scaffold
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Attendee Cards** | Interactive profiles with key info at a glance | "Create attendee profile cards" |
+| **Meeting Prep Checklist** | Track what you've prepared and what's left | "Build a meeting prep checklist artifact" |
+| **Agenda Timer** | Interactive agenda with time allocation | "Make a timed agenda artifact" |
+| **Notes Template** | Structured note-taking during the meeting | "Create an interactive notes template" |
+
+### Example Artifact Requests
+
+**Attendee Dashboard**
+> "Create a React artifact showing attendee cards with: name, role, company, relationship status, and key notes"
+
+**Meeting Prep Tracker**
+> "Build a checklist artifact with: research done, agenda reviewed, goals set, materials ready—let me check them off"
+
+**Live Agenda**
+> "Create an interactive agenda where I can see time remaining per section and adjust on the fly"
+
+### Tips
+- Review attendee cards 10 minutes before the meeting for a quick refresh
+- Use the prep checklist to ensure you don't miss anything
+- The notes template keeps you structured during the actual meeting
 
 ---
 
@@ -138,4 +186,4 @@ Specify "deep dive" mode or ask for specific research: "What has their CEO said 
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

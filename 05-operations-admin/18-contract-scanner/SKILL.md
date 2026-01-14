@@ -17,6 +17,25 @@ Takes a contract document and extracts key terms, identifies potential red flags
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -61,6 +80,35 @@ output/
 ├── questions-for-legal.md   # For your lawyer
 └── calendar-entry.ics       # Important dates
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Contract Summary Card** | Key terms at a glance with status indicators | "Create a contract summary artifact" |
+| **Red Flag Tracker** | List of concerns with severity and resolution status | "Build a red flag tracker artifact" |
+| **Date Tracker** | Important contract dates with countdown | "Make a contract dates artifact" |
+| **Comparison Matrix** | Compare terms across multiple contracts | "Create a contract comparison artifact" |
+
+### Example Artifact Requests
+
+**Contract Dashboard**
+> "Create a React artifact showing: contract name, status, key terms (value, term, renewal), and days until action needed"
+
+**Red Flag Review**
+> "Build an interactive list of red flags with: severity (high/medium/low), clause reference, and checkbox for 'discussed with lawyer'"
+
+**Contract Calendar**
+> "Create a timeline artifact showing: start date, renewal notice deadline, and end date for all active contracts"
+
+### Tips
+- Use the date tracker to never miss a renewal deadline
+- Update the red flag tracker after legal review
+- The comparison matrix helps negotiate better terms
 
 ---
 
@@ -136,4 +184,4 @@ Specify: "This is an employment contract, not vendor agreement."
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

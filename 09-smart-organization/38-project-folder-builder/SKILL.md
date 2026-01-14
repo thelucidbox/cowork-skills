@@ -16,6 +16,25 @@ Generates standardized project folder structures based on project type, complete
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -66,6 +85,35 @@ output/
     ├── 06-Delivery/
     └── _Archive/
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Project Setup Wizard** | Interactive form to configure your folder structure | "Create a project setup wizard artifact" |
+| **Template Selector** | Browse and preview folder templates by project type | "Build a template browser artifact" |
+| **Structure Visualizer** | Interactive tree view of your project organization | "Make a folder structure visualizer" |
+| **Project Index** | Dashboard of all your projects with quick access | "Create a project index artifact" |
+
+### Example Artifact Requests
+
+**Project Setup Wizard**
+> "Create a React form where I can enter project name, type, and custom sections—then show me the folder structure that will be created"
+
+**Template Browser**
+> "Build an artifact showing different project templates (Software, Client, Research, Creative) with previews of each structure"
+
+**Structure Visualizer**
+> "Create an interactive tree diagram of my project folder structure that I can expand/collapse"
+
+### Tips
+- Use the setup wizard to standardize how you create new projects
+- The template browser helps teams agree on consistent structure
+- Keep a project index artifact to quickly navigate between active projects
 
 ---
 
@@ -135,4 +183,4 @@ Market-Trends-Research/
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

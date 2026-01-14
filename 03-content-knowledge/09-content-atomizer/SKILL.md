@@ -18,6 +18,25 @@ Takes your long-form content—blog post, video transcript, presentation—and a
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -66,6 +85,35 @@ output/
     ├── quote-cards.md        # Visual quotes
     └── video-clips.md        # Clip suggestions
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Content Atoms Grid** | See all atoms from one piece side by side | "Create a content atoms artifact" |
+| **Quote Card Designer** | Preview and edit visual quote layouts | "Build a quote card artifact" |
+| **Platform Preview** | See how content looks on each platform | "Make a platform preview artifact" |
+| **Publishing Checklist** | Track which atoms have been published | "Create a publishing tracker artifact" |
+
+### Example Artifact Requests
+
+**Atoms Overview**
+> "Create a React artifact showing all content atoms from this piece: Twitter thread, LinkedIn post, newsletter section, quote cards—in a grid view"
+
+**Quote Card Previewer**
+> "Build an artifact showing extracted quotes in card format with different background color options"
+
+**Publishing Tracker**
+> "Create a checklist artifact with each atom, platform, and published (yes/no) status"
+
+### Tips
+- Use the grid view to see your full content distribution at once
+- The quote card previewer helps select the best visual quotes
+- Track publishing to avoid posting duplicates
 
 ---
 
@@ -138,4 +186,4 @@ Ask: "Also create a [platform] version" and I'll add it.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

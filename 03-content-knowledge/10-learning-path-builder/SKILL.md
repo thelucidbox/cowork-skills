@@ -17,6 +17,25 @@ Takes a skill you want to learn and builds a complete learning path. Breaks the 
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -62,6 +81,35 @@ output/
 ├── first-assignment.md    # Start immediately
 └── progress-tracker.md    # Track advancement
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Learning Roadmap** | Visual path from beginner to goal | "Create a learning roadmap artifact" |
+| **Progress Tracker** | Check off completed modules and see progress | "Build a learning progress artifact" |
+| **Resource Library** | Organized collection of learning materials | "Make a resource library artifact" |
+| **Study Planner** | Schedule learning sessions into your week | "Create a study planner artifact" |
+
+### Example Artifact Requests
+
+**Learning Roadmap**
+> "Create a React artifact showing my learning path as phases—each phase expandable with modules, estimated time, and completion status"
+
+**Progress Dashboard**
+> "Build a tracker where I can mark modules complete, see overall progress %, and estimated time to finish"
+
+**Weekly Study Planner**
+> "Create a calendar artifact where I can schedule learning sessions and see recommended weekly hours"
+
+### Tips
+- Update progress after each learning session
+- Use the roadmap to see how concepts build on each other
+- The study planner helps maintain consistent learning habits
 
 ---
 
@@ -138,4 +186,4 @@ Tell me your actual level more specifically. The assignment should stretch but n
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

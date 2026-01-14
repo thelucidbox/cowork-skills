@@ -59,4 +59,4 @@ Author, A. A. (Year, Month Day). Title of page. Site Name. URL
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

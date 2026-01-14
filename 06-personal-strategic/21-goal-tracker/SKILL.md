@@ -16,6 +16,25 @@ Takes your goals and progress notes, then generates a comprehensive status dashb
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -58,6 +77,35 @@ output/
 ├── recommendations.md    # What to do
 └── next-actions.md       # Prioritized tasks
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Goal Dashboard** | Visual status of all goals with progress bars | "Create a goal dashboard artifact" |
+| **Progress Tracker** | Log progress entries and see trends | "Build a progress tracker artifact" |
+| **OKR Scorecard** | Track objectives and key results with scores | "Make an OKR scorecard artifact" |
+| **Habit Tracker** | Daily/weekly habit completion grid | "Create a habit tracker artifact" |
+
+### Example Artifact Requests
+
+**Goal Dashboard**
+> "Create a React dashboard showing each goal with: name, progress bar (0-100%), status (on-track/at-risk/behind), and days remaining"
+
+**Progress Logger**
+> "Build an artifact where I can log progress updates for each goal and see a chart of my trajectory over time"
+
+**OKR Scorecard**
+> "Create an interactive OKR tracker with objectives, key results, confidence scores, and overall objective health"
+
+### Tips
+- Update the dashboard weekly to maintain accurate status
+- Use the progress tracker to celebrate small wins
+- Review the OKR scorecard monthly to adjust strategies
 
 ---
 
@@ -127,4 +175,4 @@ Ask for "simple view" with just status, no analysis.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

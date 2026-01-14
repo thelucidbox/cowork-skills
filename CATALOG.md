@@ -19,7 +19,8 @@ cowork-skills/
 ├── 09-smart-organization/
 ├── 10-research-synthesis/
 ├── 11-communication-automation/
-└── 12-life-admin/
+├── 12-life-admin/
+└── 13-premium-workflows/     ← PREMIUM (50 financial dashboards)
 ```
 
 ---
@@ -190,4 +191,97 @@ cowork-skills/
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+## 13 — Premium Financial Workflows ⭐
+
+**50 hybrid LLM + deterministic dashboards for financial tracking and analysis.**
+
+> These premium workflows include Python processing scripts + React dashboards with Recharts visualizations.
+
+### A: Tax & Financial Tracking (01-08)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 01 | [Tax Deduction Tracker](13-premium-workflows/01-tax-deduction-tracker/) | Track deductible expenses |
+| 02 | [Business Expense Allocator](13-premium-workflows/02-business-expense-allocator/) | Allocate business expenses |
+| 03 | [Charitable Donation Tracker](13-premium-workflows/03-charitable-donation-tracker/) | Track charitable contributions |
+| 04 | [Depreciation Schedule Viewer](13-premium-workflows/04-depreciation-schedule-viewer/) | Visualize asset depreciation |
+| 05 | [Quarterly Tax Calendar](13-premium-workflows/05-quarterly-tax-calendar/) | Track estimated tax deadlines |
+| 06 | [Crypto Portfolio Tracker](13-premium-workflows/06-crypto-portfolio-tracker/) | Track cryptocurrency holdings |
+| 07 | [State Tax Nexus Map](13-premium-workflows/07-state-tax-nexus-map/) | Visualize multi-state tax obligations |
+| 08 | [1099 Income Dashboard](13-premium-workflows/08-1099-income-dashboard/) | Track contractor income |
+
+### B: Investment Dashboards (09-17)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 09 | [Position Analyzer](13-premium-workflows/09-position-analyzer/) | Analyze portfolio positions |
+| 10 | [Dividend Income Calendar](13-premium-workflows/10-dividend-income-calendar/) | Track dividend payments |
+| 11 | [Tax Loss Harvest Finder](13-premium-workflows/11-tax-loss-harvest-finder/) | Identify tax-loss opportunities |
+| 12 | [Rebalancing Calculator](13-premium-workflows/12-rebalancing-calculator/) | Calculate portfolio rebalancing |
+| 13 | [Options Position Visualizer](13-premium-workflows/13-options-position-visualizer/) | Visualize options strategies |
+| 14 | [ESPP Lot Tracker](13-premium-workflows/14-espp-lot-tracker/) | Track ESPP purchases |
+| 15 | [Bond Ladder Visualizer](13-premium-workflows/15-bond-ladder-visualizer/) | Visualize bond maturities |
+| 16 | [Portfolio Scenario Planner](13-premium-workflows/16-portfolio-scenario-planner/) | Model portfolio scenarios |
+| 17 | [RSU Vesting Calendar](13-premium-workflows/17-rsu-vesting-calendar/) | Track RSU vesting dates |
+
+### C: Invoicing & AR/AP (18-24)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 18 | [AR Aging Dashboard](13-premium-workflows/18-ar-aging-dashboard/) | Track accounts receivable aging |
+| 19 | [Recurring Billing Calendar](13-premium-workflows/19-recurring-billing-calendar/) | Manage recurring invoices |
+| 20 | [Vendor Payment Scheduler](13-premium-workflows/20-vendor-payment-scheduler/) | Schedule vendor payments |
+| 21 | [Project Profitability Dashboard](13-premium-workflows/21-project-profitability-dashboard/) | Track project margins |
+| 22 | [Retainer Balance Tracker](13-premium-workflows/22-retainer-balance-tracker/) | Monitor retainer balances |
+| 23 | [Payment Reconciliation Matcher](13-premium-workflows/23-payment-reconciliation-matcher/) | Match payments to invoices |
+| 24 | [Expense Reimbursement Tracker](13-premium-workflows/24-expense-reimbursement-tracker/) | Track reimbursements |
+
+### D: Contracts & Deadlines (25-28)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 25 | [Contract Deadline Calendar](13-premium-workflows/25-contract-deadline-calendar/) | Track contract deadlines |
+| 26 | [NDA Inventory Tracker](13-premium-workflows/26-nda-inventory-tracker/) | Manage NDA inventory |
+| 27 | [Renewal Alert Dashboard](13-premium-workflows/27-renewal-alert-dashboard/) | Track contract renewals |
+| 28 | [Compliance Checklist Tracker](13-premium-workflows/28-compliance-checklist-tracker/) | Monitor compliance items |
+
+### E: Business Ops (29-37)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 29 | [Cash Flow Forecaster](13-premium-workflows/29-cash-flow-forecaster/) | Forecast cash flow |
+| 30 | [Break-Even Visualizer](13-premium-workflows/30-break-even-visualizer/) | Calculate break-even points |
+| 31 | [Pricing Calculator](13-premium-workflows/31-pricing-calculator/) | Model pricing strategies |
+| 32 | [Payroll Tax Calendar](13-premium-workflows/32-payroll-tax-calendar/) | Track payroll tax deadlines |
+| 33 | [Inventory Reorder Dashboard](13-premium-workflows/33-inventory-reorder-dashboard/) | Monitor inventory levels |
+| 34 | [Customer LTV Dashboard](13-premium-workflows/34-customer-ltv-dashboard/) | Calculate customer lifetime value |
+| 35 | [Churn Analytics Dashboard](13-premium-workflows/35-churn-analytics-dashboard/) | Analyze customer churn |
+| 36 | [Invoice Manager](13-premium-workflows/36-invoice-manager/) | Manage invoices |
+| 37 | [Late Fee Calculator](13-premium-workflows/37-late-fee-calculator/) | Calculate late fees |
+
+### F: Content & Marketing (38-42)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 38 | [Content ROI Dashboard](13-premium-workflows/38-content-roi-dashboard/) | Track content performance |
+| 39 | [Email Campaign Analyzer](13-premium-workflows/39-email-campaign-analyzer/) | Analyze email campaigns |
+| 40 | [Social Media Scheduler](13-premium-workflows/40-social-media-scheduler/) | Schedule social posts |
+| 41 | [Affiliate Commission Tracker](13-premium-workflows/41-affiliate-commission-tracker/) | Track affiliate earnings |
+| 42 | [Ad Spend Optimizer](13-premium-workflows/42-ad-spend-optimizer/) | Optimize ad spending |
+
+### G: Personal Finance (43-50)
+
+| # | Workflow | Description |
+|---|----------|-------------|
+| 43 | [Multi-Currency AR Dashboard](13-premium-workflows/43-multi-currency-ar-dashboard/) | Track multi-currency receivables |
+| 44 | [Home Office Deduction Calculator](13-premium-workflows/44-home-office-deduction-calculator/) | Calculate home office deductions |
+| 45 | [Entity Structure Optimizer](13-premium-workflows/45-entity-structure-optimizer/) | Compare business structures |
+| 46 | [Cost Basis Reconciler](13-premium-workflows/46-cost-basis-reconciler/) | Reconcile investment cost basis |
+| 47 | [Insurance Coverage Analyzer](13-premium-workflows/47-insurance-coverage-analyzer/) | Analyze insurance coverage |
+| 48 | [Net Worth Tracker](13-premium-workflows/48-net-worth-tracker/) | Track net worth |
+| 49 | [Savings Goal Planner](13-premium-workflows/49-savings-goal-planner/) | Plan savings goals |
+| 50 | [Financial Health Scorecard](13-premium-workflows/50-financial-health-scorecard/) | Comprehensive financial health score |
+
+---
+
+*Part of Art of Fact Cowork Skill Library*

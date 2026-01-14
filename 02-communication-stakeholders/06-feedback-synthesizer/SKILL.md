@@ -17,6 +17,25 @@ Takes feedback scattered across sources—survey responses, emails, Slack messag
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -64,6 +83,35 @@ output/
     ├── response-[name].md     # Individual responses
     └── bulk-response.md       # Template for common feedback
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Feedback Dashboard** | Visual overview of themes, sentiment, and volume | "Create a feedback dashboard artifact" |
+| **Theme Explorer** | Interactive view of feedback grouped by topic | "Build a theme explorer artifact" |
+| **Priority Matrix** | Plot improvements by impact and effort | "Make a priority matrix artifact" |
+| **Response Tracker** | Track which feedback needs responses and status | "Create a response tracker artifact" |
+
+### Example Artifact Requests
+
+**Feedback Dashboard**
+> "Create a React dashboard showing: sentiment breakdown (pie chart), top themes (bar chart), and feedback volume over time"
+
+**Theme Explorer**
+> "Build an interactive artifact where I can click on a theme and see all the quotes and feedback in that category"
+
+**Priority Matrix**
+> "Create a 2x2 matrix with Impact (low/high) and Effort (low/high)—let me drag improvement items into quadrants"
+
+### Tips
+- Use the dashboard to present feedback findings to stakeholders
+- The theme explorer helps you understand the "why" behind patterns
+- Update the response tracker as you address feedback
 
 ---
 
@@ -137,4 +185,4 @@ Provide context about your relationship with the feedback giver. Personal contex
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

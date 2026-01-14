@@ -17,6 +17,25 @@ Scans your year's calendar, email, notes, and completed work to compile comprehe
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -63,6 +82,35 @@ output/
 ├── brag-document.md             # Shareable version
 └── metrics-summary.md           # Quantified impact
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Accomplishment Tracker** | Log wins throughout the year, categorized by theme | "Create an accomplishment tracker artifact" |
+| **Brag Doc Builder** | Interactive form to build your brag document | "Build a brag doc artifact I can update" |
+| **Impact Dashboard** | Visualize metrics and quantified achievements | "Make an impact metrics dashboard" |
+| **Career Timeline** | Visual timeline of major milestones and growth | "Create a career timeline artifact" |
+
+### Example Artifact Requests
+
+**Accomplishment Tracker**
+> "Create a React artifact where I can log accomplishments with date, category (Leadership/Technical/Delivery/Mentoring), and impact notes"
+
+**Impact Dashboard**
+> "Build a dashboard showing my key metrics: projects delivered, people mentored, revenue influenced, processes improved"
+
+**Praise Collector**
+> "Create an artifact where I can paste praise/kudos I receive and tag them by source and theme"
+
+### Tips
+- Start your accomplishment tracker at the beginning of the year—don't wait until review time
+- Update monthly to capture wins while they're fresh
+- Use the brag doc artifact for promotions, job interviews, and LinkedIn updates too
 
 ---
 
@@ -131,4 +179,4 @@ Specify: "Focus on top 10 accomplishments" or "Include everything."
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

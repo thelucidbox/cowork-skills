@@ -17,6 +17,25 @@ Takes a decision you're facing—described in plain language—and transforms it
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -63,6 +82,35 @@ output/
 ├── assumptions.md          # Surfaced assumptions
 └── decision-record.md      # For archive after deciding
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Decision Framework Board** | Visual layout of situation, criteria, and options | "Create a decision framework artifact" |
+| **Options Matrix** | Interactive scoring grid for options vs criteria | "Build an options comparison artifact" |
+| **Criteria Weighter** | Adjust importance weights and see recommendation change | "Make a criteria weighting artifact" |
+| **Decision Log** | Track past decisions with outcomes for learning | "Create a decision log artifact" |
+
+### Example Artifact Requests
+
+**Decision Framework**
+> "Create a React artifact showing: the decision question, key criteria (weighted), options as cards, and a recommendation based on scores"
+
+**Interactive Options Matrix**
+> "Build a matrix where I can score each option 1-5 on each criterion, adjust weights, and see the winning option update"
+
+**Decision Log**
+> "Create a tracker for past decisions with: decision, date, what we chose, outcome, and learnings"
+
+### Tips
+- Use the criteria weighter when stakeholders disagree on priorities—visualize how different weights change the recommendation
+- The decision log becomes valuable over time for pattern recognition
+- Share the framework artifact to get buy-in before deciding
 
 ---
 
@@ -136,4 +184,4 @@ Specify: "Keep this simple—just the key factors" or "Go deep—this is importa
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

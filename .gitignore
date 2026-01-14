@@ -1,0 +1,22 @@
+# Premium content - behind paywall, not for public release
+13-premium-workflows/
+
+# OS files
+.DS_Store
+*.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Output files (regenerated)
+**/output/*.json

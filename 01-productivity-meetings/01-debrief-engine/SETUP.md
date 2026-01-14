@@ -151,4 +151,4 @@ Simply provide your meeting notes. I'll:
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

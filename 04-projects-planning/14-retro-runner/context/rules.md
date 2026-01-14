@@ -186,4 +186,4 @@ Stop if: [Condition that means this isn't working]
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

@@ -1,12 +1,62 @@
-# The Unlikely Coder — Cowork Skill Library
+# Art of Fact — Cowork Skill Library
+
+> **Turn prompts into facts. Real outputs. Real fast.**
 
 **50 AI-powered skills organized into 12 categories.**
+
+> **🔒 Premium:** 50 Financial Dashboards available in `13-premium-workflows/` (not included in public release)
+
+---
+
+## Quick Start
+
+### Load Any Skill Folder → Say "Ready to Work"
+
+```
+You: [loads skill folder into Claude]
+You: ready to work
+
+Claude: I see you've loaded [Skill Name]. Here's what I can do...
+        What would you like me to help with?
+
+You: [describes your need]
+
+Claude: [produces artifact outputs]
+```
+
+That's it. Load, trigger, get artifacts.
+
+**See [QUICKSTART.md](./QUICKSTART.md) for the complete guide.**
 
 ---
 
 ## What Is This?
 
-A collection of "Cowork Skills" — structured capability packages that help AI assistants perform specific tasks with consistency and quality. Each skill is self-contained with documentation, templates, and guidelines.
+A collection of **Cowork Skills** — structured capability packages that help Claude perform specific tasks with consistency and quality. Each skill is self-contained with:
+
+- Instructions Claude reads automatically
+- Templates and rules for consistent output
+- Input/output folders for your files
+- Artifact instructions for interactive dashboards and trackers
+
+---
+
+## How Skills Work
+
+### 1. Load the Folder
+Open any skill folder in Claude (via Claude Code, Projects, or drag-and-drop).
+
+### 2. Trigger the Skill
+Say one of these:
+- `ready to work` — Claude asks what you need
+- `run [skill name]` — Claude starts immediately
+- `help` — Claude explains the skill
+
+### 3. Get Artifacts
+Claude produces real outputs:
+- Documents (markdown, reports, analyses)
+- Interactive dashboards and trackers (Claude artifacts)
+- Organized files in the output folder
 
 ---
 
@@ -14,8 +64,9 @@ A collection of "Cowork Skills" — structured capability packages that help AI 
 
 ```
 cowork-skills/
-├── README.md
-├── CATALOG.md
+├── README.md           # You are here
+├── QUICKSTART.md       # How to use skills
+├── CATALOG.md          # Full skill catalog
 │
 ├── 01-productivity-meetings/
 │   ├── 01-debrief-engine/
@@ -85,28 +136,17 @@ cowork-skills/
 │   ├── 45-social-media-repurposer/
 │   └── 46-email-digest-generator/
 │
-└── 12-life-admin/
-    ├── 47-subscription-auditor/
-    ├── 48-receipt-processor/
-    ├── 49-tax-prep-assembler/
-    └── 50-warranty-tracker/
+├── 12-life-admin/
+│   ├── 47-subscription-auditor/
+│   ├── 48-receipt-processor/
+│   ├── 49-tax-prep-assembler/
+│   └── 50-warranty-tracker/
+│
+└── 13-premium-workflows/      🔒 PREMIUM (behind paywall)
+    ├── 01-tax-deduction-tracker/
+    ├── ...
+    └── 50-financial-health-scorecard/
 ```
-
----
-
-## How to Use
-
-### 1. Browse by Category
-Navigate to the category folder that matches your need.
-
-### 2. Choose a Skill
-Open the skill folder and read `SKILL.md` for full documentation.
-
-### 3. Check Setup (if needed)
-Review `SETUP.md` for any required integrations or tools.
-
-### 4. Invoke the Skill
-Use natural language or the example prompts provided.
 
 ---
 
@@ -114,15 +154,13 @@ Use natural language or the example prompts provided.
 
 ```
 [skill-folder]/
-├── SKILL.md           # Main documentation
-├── SETUP.md           # Setup & integration guide
+├── SKILL.md           # Main instructions (Claude reads this)
+├── SETUP.md           # One-time setup guide
 ├── context/
 │   ├── rules.md       # Output formatting rules
 │   └── templates/     # Templates (if applicable)
-├── input/
-│   └── README.md      # What goes in input
-└── output/
-    └── README.md      # What appears in output
+├── input/             # Drop your source files here
+└── output/            # Where artifacts appear
 ```
 
 ---
@@ -132,71 +170,78 @@ Use natural language or the example prompts provided.
 | # | Category | Skills | Focus |
 |---|----------|--------|-------|
 | 01 | Productivity & Meetings | 01-04 | Meetings, decisions, summaries |
-| 02 | Communication & Stakeholders | 05-08 | Audiences, feedback, relationships |
+| 02 | Communication | 05-08 | Audiences, feedback, relationships |
 | 03 | Content & Knowledge | 09-12 | Content, learning, research |
 | 04 | Projects & Planning | 13-16 | Kickoffs, retros, vendors |
 | 05 | Operations & Admin | 17-20 | Expenses, contracts, files |
 | 06 | Personal & Strategic | 21-25 | Goals, energy, reviews |
-| 07 | Media & Processing | 26-32 | Video, audio, images |
+| 07 | Media Processing | 26-32 | Video, audio, images |
 | 08 | Digital Recovery | 33-36 | Downloads, duplicates, photos |
 | 09 | Smart Organization | 37-40 | Tagging, folders, archives |
 | 10 | Research & Synthesis | 41-43 | Sources, competitors, literature |
 | 11 | Communication Automation | 44-46 | Newsletters, social, email |
 | 12 | Life Admin | 47-50 | Subscriptions, taxes, warranties |
+| **13** | **🔒 Premium Financial** | **01-50** | **Tax, investments, business ops** |
 
 ---
 
-## Quick Start Examples
+## Example Workflows
 
-### Clean up my digital life
+### Meeting Just Ended
 ```
-"Clean up my Downloads folder"
-→ 08-digital-recovery/33-downloads-archaeologist
-
-"Find duplicate files"
-→ 08-digital-recovery/34-duplicate-detective
-
-"Organize my desktop"
-→ 09-smart-organization/39-desktop-zero
+Load: 01-debrief-engine
+Say: "ready to work"
+Drop: your meeting notes
+Get: decisions.md, action-tracker.md, follow-up emails
 ```
 
-### Prepare for something
+### Starting a New Project
 ```
-"Prepare for my meeting with stakeholders"
-→ 01-productivity-meetings/02-prep-kit-generator
-
-"Help me prepare for my annual review"
-→ 06-personal-strategic/23-annual-review-prep
-
-"Prepare for tax season"
-→ 12-life-admin/49-tax-prep-assembler
+Load: 13-kickoff-kit
+Say: "run kickoff kit for [project description]"
+Get: charter, stakeholders, risks, milestone breakdown
 ```
 
-### Process media
+### Annual Review Coming Up
 ```
-"Transcribe this video"
-→ 07-media-processing/30-video-transcriber
-
-"Create thumbnails for my videos"
-→ 07-media-processing/32-thumbnail-generator
-
-"Convert this video to MP4"
-→ 07-media-processing/31-media-format-converter
+Load: 23-annual-review-prep
+Say: "ready to work"
+Provide: your year's accomplishments
+Get: brag doc, self-review draft, metrics summary
 ```
+
+### Research Task
+```
+Load: 12-research-synthesizer
+Say: "research [topic]"
+Get: executive brief with citations, source comparison
+```
+
+---
+
+## Interactive Artifacts
+
+Every skill supports Claude artifacts — interactive dashboards and trackers you can return to:
+
+- **Project Dashboard** — Health score, milestones, risks
+- **Goal Tracker** — Progress bars, status indicators
+- **Comparison Matrix** — Vendor scoring, decision frameworks
+- **Kanban Boards** — Action items, blockers, progress
+
+Just ask: "Create a dashboard artifact" or "Build a tracker I can update"
 
 ---
 
 ## Requirements
 
-Most skills require only:
+Most skills need only:
 - File system access
 - Internet access (for research skills)
 
-Specific tools for some skills:
-- **ffmpeg**: Media skills (27, 30, 31, 32)
+Some skills need tools:
+- **ffmpeg**: Media processing (skills 26-32)
 - **OCR**: PDF and image extraction
 
 ---
 
-*Created by The Unlikely Coder*
-*Part of the Cowork Skill Library*
+*Part of Art of Fact — Turn prompts into facts.*

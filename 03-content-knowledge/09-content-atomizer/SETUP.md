@@ -118,4 +118,4 @@ I'll match your established voice per platform.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

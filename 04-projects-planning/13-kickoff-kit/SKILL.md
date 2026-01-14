@@ -17,6 +17,25 @@ Takes a project description and generates everything needed for a solid kickoff.
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -62,6 +81,35 @@ output/
 ├── risk-register.md          # Risks and mitigations
 └── milestone-1-breakdown.md  # First sprint/phase
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Project Dashboard** | Live overview with health score, milestones, risks | "Create a project dashboard artifact" |
+| **Stakeholder Tracker** | Interactive RACI matrix with alignment status | "Build a stakeholder tracker I can update" |
+| **Risk Heatmap** | Visual risk matrix (likelihood × impact) you can modify | "Make an interactive risk heatmap" |
+| **Milestone Tracker** | Progress checklist with completion percentage | "Create a milestone tracker artifact" |
+
+### Example Artifact Requests
+
+**Project Dashboard**
+> "Create a React artifact dashboard showing: project health score, milestone progress bar, top 3 risks, and upcoming deadlines"
+
+**Stakeholder Tracker**
+> "Build an interactive stakeholder table where I can track who I've aligned with and who still needs outreach"
+
+**Milestone Kanban**
+> "Create a Kanban-style artifact showing Milestone 1 tasks that I can drag between To Do, In Progress, and Done"
+
+### Tips
+- Artifacts persist in your conversation—return to update them as the project evolves
+- Ask Claude to "update the dashboard with new status" after check-ins
+- Request "exportable" versions for sharing outside Claude
 
 ---
 
@@ -132,4 +180,4 @@ Specify: "Break milestones into 1-week chunks maximum."
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

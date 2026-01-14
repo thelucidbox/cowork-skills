@@ -110,4 +110,4 @@ Primary sources weighted more heavily in synthesis.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

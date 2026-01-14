@@ -16,6 +16,25 @@ Collects sources from various inputs (URLs, PDFs, notes), extracts key informati
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -65,6 +84,35 @@ output/
 
 ---
 
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Source Library** | Browse and search all collected sources | "Create a source library artifact" |
+| **Citation Generator** | Quick copy citations in different formats | "Build a citation generator artifact" |
+| **Reading Tracker** | Track which sources you've read and noted | "Make a reading tracker artifact" |
+| **Source Cards** | Key info from each source at a glance | "Create source card artifacts" |
+
+### Example Artifact Requests
+
+**Source Library Dashboard**
+> "Create a React artifact showing all my sources: filterable by type (article/book/other), searchable, with quick access to citations"
+
+**Citation Copier**
+> "Build an artifact where I can select a source and copy its citation in APA, MLA, or Chicago format"
+
+**Reading Progress**
+> "Create a tracker showing sources with status: Not Read, Reading, Read, Noted—with progress stats"
+
+### Tips
+- Add sources as you find them to build your library over time
+- Use the citation generator when writing to maintain consistency
+- The reading tracker ensures you don't miss important sources
+
+---
+
 ## Examples
 
 ### Example 1: Research Paper Sources
@@ -111,4 +159,4 @@ output/
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

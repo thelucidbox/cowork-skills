@@ -17,6 +17,25 @@ Takes all your notes, calendar events, and completed tasks from the week and tra
 
 ---
 
+
+---
+
+## IMPORTANT: Always Ask First
+
+When the user says "ready to work", "get to work", or loads this folder:
+
+1. **Greet and explain** what this skill does
+2. **Ask what they need**:
+   > "I can help you with [skill purpose]. Would you like to:
+   > 1. **Start fresh** - I'll guide you through what I need
+   > 2. **Use files in input/** - I'll process what you've added
+   > 3. **See an example** - I'll show you what this produces"
+
+3. **Never auto-run** without confirming what the user wants
+
+### Why This Matters
+Users loading a skill folder expect guidance, not assumptions. Always confirm before processing.
+
 ## Quick Start
 
 ### Option 1: Natural Language
@@ -63,6 +82,35 @@ output/
 ├── blockers.md               # Stuck items + strategies
 └── next-week-priorities.md   # Recommended focus
 ```
+
+---
+
+## Claude Artifacts (Interactive)
+
+Ask Claude to create interactive artifacts you can use and return to:
+
+| Artifact Type | What It Does | How to Request |
+|---------------|--------------|----------------|
+| **Weekly Dashboard** | Live overview of wins, blockers, and priorities | "Create a weekly momentum dashboard" |
+| **Energy Tracker** | Log and visualize daily energy levels over time | "Build an energy tracking artifact" |
+| **Blocker Board** | Kanban for blocked items with unblocking strategies | "Make a blocker tracker artifact" |
+| **Priority Matrix** | Eisenhower matrix for prioritizing next week | "Create a priority matrix artifact" |
+
+### Example Artifact Requests
+
+**Weekly Dashboard**
+> "Create a React dashboard showing: this week's wins (list), active blockers (with status), energy trend (sparkline), and top 3 priorities for next week"
+
+**Energy Tracker**
+> "Build an artifact where I can rate my energy 1-10 each day and see patterns over weeks"
+
+**Blocker Board**
+> "Create a Kanban with columns: Blocked, Unblocking, Resolved—let me track what's stuck and what I did about it"
+
+### Tips
+- Run the weekly dashboard every Friday to close out the week
+- Energy patterns become visible after 3-4 weeks of tracking
+- Keep the blocker board updated—celebrate when things move to Resolved
 
 ---
 
@@ -136,4 +184,4 @@ Ask for "one move per blocker" to get actionable next steps rather than comprehe
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

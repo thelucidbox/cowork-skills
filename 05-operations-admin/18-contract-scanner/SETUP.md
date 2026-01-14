@@ -102,4 +102,4 @@ Cannot be disabled—legal review is always required.
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

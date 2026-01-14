@@ -95,4 +95,4 @@ If you always categorize certain vendors:
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

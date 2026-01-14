@@ -237,4 +237,4 @@ Always include "why someone might choose differently" — validates that trade-o
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*

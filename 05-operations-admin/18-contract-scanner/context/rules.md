@@ -240,4 +240,4 @@ Based on analysis, these terms might be negotiable:
 
 ---
 
-*Part of The Unlikely Coder Cowork Skill Library*
+*Part of Art of Fact Cowork Skill Library*
